@@ -1,0 +1,365 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.bl-div {
+  height: 30px;
+  display: flex;
+  position: sticky;
+  top: 0px;
+}
+
+.image {
+  width: 1350px;
+  display: flex;
+  background-color: navy;
+}
+.image .img {
+  margin-top: 2.5px;
+  margin-left: 7px;
+}
+.bl-div .image .tag,
+.bl-div .image .tag a {
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  margin-top: 3.5px;
+  text-decoration: none;
+}
+.bl-div .image .tag {
+  margin-left: 550px;
+}
+.bl-div .image .tag a {
+  margin: 0px 8px;
+}
+.bl-div .fd {
+  font-size: 16px;
+  color: white;
+  width: 200px;
+  text-align: center;
+  padding-top: 3.5px;
+  background-color: #00a6eb;
+}
+/* ------------nav bar-------------------- */
+.nav-bar {
+  height: 70px;
+  background-color: white;
+  position: absolute;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  display: flex;
+  padding: 15px 0px;
+  position: sticky;
+  top: 30px;
+}
+.nav-bar > a {
+  font-size: 28px;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0px 100px;
+  color: green;
+}
+.nav-bar .list {
+  display: flex;
+  padding: 10px 0px;
+  padding-left: 350px;
+}
+.nav-bar .list li {
+  margin: 0px 17px;
+}
+.nav-bar .list li a {
+  text-decoration: none;
+  font-size: 13.5px;
+  color: black;
+  font-weight: bold;
+}
+.nav-bar .list li a:hover {
+  color: #1bbd36;
+}
+/* ---------------portfolio banner------------ */
+.port-ban {
+  background-color: #1bbd36;
+  width: 100%;
+  height: 67px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 100px;
+}
+.port-ban h2 {
+  font-size: 26px;
+  font-weight: lighter;
+  margin-top: -2px;
+  color: white;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  /* letter-spacing: 1px; */
+}
+.port-ban .h-p {
+  display: flex;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  word-spacing: 10px;
+}
+.port-ban .h-p a {
+  text-decoration: none;
+  margin-right: 15px;
+  color: white;
+}
+/* --------------portfolio images div---------- */
+.port-img {
+  background-color: white;
+  height: 1350px;
+  width: 90%;
+  margin: 10px auto;
+  /* z-index: -1; */
+}
+.port-img .p-link {
+  width: 19.2%;
+  height: 35px;
+  margin: 30px auto;
+}
+.port-img .p-link a {
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+  border-radius: 3px;
+  display: inline-block;
+  height: 30px;
+  width: 50px;
+  margin: 2px;
+  padding: 4.5px 0px;
+  text-align: center;
+}
+.port-img .p-link .a1 {
+  color: #1bbd36;
+}
+.port-img .p-link .a1 :hover {
+  color: white;
+}
+.port-img .p-link a:hover {
+  color: white;
+  background-color: #1bbd36;
+}
+/* -------------images------------ */
+.port-img .p-imgs {
+  margin: 18px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.port-img .p-imgs .col1 {
+  height: 520px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container1 {
+  height: 422px;
+  width: 416px;
+}
+.container2 {
+  height: 69px;
+  width: 416px;
+}
+.container3 {
+  height: 279px;
+  width: 416px;
+}
+.container4 {
+  height: 622px;
+  width: 416px;
+}
+.container5 {
+  height: 276px;
+  width: 416px;
+}
+.container6 {
+  height: 234px;
+  width: 416px;
+}
+.container7 {
+  height: 275px;
+  width: 416px;
+}
+.container8 {
+  height: 270px;
+  width: 416px;
+}
+.container9 {
+  height: 277px;
+  width: 416px;
+}
+.container1 .img1 img {
+  position: absolute;
+}
+.img1:hover + .con1 {
+  transition-duration: 0.5s;
+  position: relative;
+  top: 287px;
+  z-index: 1;
+}
+.con1 {
+  position: relative;
+  top: 306px;
+}
+.container2 .img2 img {
+  position: absolute;
+}
+.img2:hover + .con2 {
+  transition-duration: 0.6s;
+  position: relative;
+  top: 484px;
+  z-index: 1;
+}
+.con2 {
+  position: relative;
+  top: 503px;
+}
+.con1,
+.con2,
+.con3,
+.con4,
+.con5,
+.con6,
+.con7,
+.con8,
+.con9 {
+  background-color: rgba(255, 255, 255, 0.9);
+  height: 80px;
+  width: 416px;
+  margin-top: 36px;
+  padding: 12px 20px;
+  z-index: -1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.p1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.p2 {
+  font-size: 15px;
+}
+.p3 {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: right;
+  margin-top: 8px;
+}
+.p3 a {
+  text-decoration: none;
+}
+.port-img .p-imgs .col2 {
+  height: 1240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container3 .img3 img {
+  position: absolute;
+}
+.img3:hover + .con3 {
+  transition-duration: 0.6s;
+  position: relative;
+  top: 145px;
+  z-index: 1;
+}
+.con3 {
+  position: relative;
+  top: 164px;
+}
+.container4 .img4 img {
+  position: absolute;
+}
+.img4:hover + .con4 {
+  transition-duration: 0.6s;
+  position: relative;
+  top: 488px;
+  z-index: 1;
+}
+.con4 {
+  position: relative;
+  top: 507px;
+}
+.container5 .img5 img {
+  position: absolute;
+}
+.img5:hover + .con5 {
+  transition-duration: 0.6s;
+  position: relative;
+  top: 142px;
+  z-index: 1;
+}
+.con5 {
+  position: relative;
+  top: 161px;
+}
+
+.port-img .p-imgs .col3 {
+  height: 1150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container6 .img6 img {
+  position: absolute;
+}
+.img6:hover + .con6 {
+  transition-duration: 0.6s;
+  position: relative;
+  top: 100px;
+  z-index: 1;
+}
+.con6 {
+  position: relative;
+  top: 119px;
+}
+.container7 .img7 img {
+  position: absolute;
+}
+.img7:hover + .con7 {
+  transition-duration: 0.6s;
+  position: relative;
+  top: 141px;
+  z-index: 1;
+}
+.con7 {
+  position: relative;
+  top: 160px;
+}
+.container8 .img8 img {
+  position: absolute;
+}
+.img8:hover + .con8 {
+  transition-duration: 0.6s;
+  position: relative;
+  top: 136px;
+  z-index: 1;
+}
+.con8 {
+  position: relative;
+  top: 155px;
+}
+.container9 .img9 img {
+  position: absolute;
+}
+.img9:hover + .con9 {
+  transition-duration: 0.6s;
+  position: relative;
+  top: 143px;
+  z-index: 1;
+}
+.con9 {
+  position: relative;
+  top: 162px;
+}
